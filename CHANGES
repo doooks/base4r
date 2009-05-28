@@ -1,0 +1,9 @@
+v0.1 2008-06-01 
+     First release.
+
+v0.2 2008-08-17 
+     Add a required "unique_id" attribute to Item, as this is now required for all Base items see http://base.google.com/support/bin/answer.py?answer=78170#id.
+     Workaround xml formatting weirdness that has appeared since I last ran the unit tests by removing inter-tag whitespace in unit tests.
+     Remove the default values for "target_country" and "item_lang" in the constructor for UniversalItem and ProductItem to make the code a little less Brit-centric.
+     
+     

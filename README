@@ -1,0 +1,19 @@
+This is Base4R, a Ruby client library for the Google Base API.
+
+All code is copyright 2007-2008 Dan Dukeson.
+
+This code is licenced under the GNU General Public License, which can be found in the LICENCE file.
+
+This release is quite basic and doesn't attempt to cover the whole of the Google Base API. In particular the code is write-only, i.e. there is functionality to create, update and delete Base items but nothing to query the Base API. Contributions of code to add this functionality would be welcomed.
+
+You can contact the author at dandukeson at gmail dot com, or raise feature requests through the project page hosted at http://code.google.com/p/base4r/issues/list
+
+To run the unit tests you should make a file test/test_config.rb with content like the following, but replacing the example values with your Google Base login details and API key.
+
+TEST_CONFIG = {
+  :username => 'user@example.com',
+  :password => 'password',
+  :api_key  => 'example_api_key'
+}
+
+
